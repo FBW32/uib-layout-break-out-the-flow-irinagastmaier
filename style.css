@@ -2,5 +2,79 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    box-sizing: border-box;
 }
 
+body {
+    background-color: #f1f1f1;
+}
+
+.halloworld {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    color: black;
+    background-color: rgb(241, 206, 142);
+    text-align: center;
+    right: 5px;
+    left: 7px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+}
+
+/* .box-1 {
+    background-color: red;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.box-2 {
+    background-color: rgb(0, 255, 85);
+    bottom: 210px;
+    left: 10px;
+    z-index: 2;
+    position: relative;
+}
+
+.box-3 {
+    background-color: rgb(0, 183, 255);
+    bottom: 420px;
+    left: 20px;
+    z-index: 3;
+    position: relative;
+} */
+
+
+/* o valor do bottom 'e de acordo com o valor do height, por isso 200px, 210px, 420px  */
+
+
+.box-1 {
+    background-color: red;
+    bottom: 0p;
+    left: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.box-2 {
+    background-color: rgb(0, 255, 85);
+    bottom: 210px;
+    left: 10px;
+    z-index: 3;
+    position: relative;
+}
+
+.box-3 {
+    background-color: rgb(0, 183, 255);
+    bottom: 420px;
+    left: 20px;
+    z-index: 2;
+    position: relative;
+} 
